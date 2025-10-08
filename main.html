@@ -8,31 +8,28 @@
     body {
       background-color: #f8f8f8;
       font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 0;
-      padding: 20px;
     }
 
     .book-library {
       background-color: #ffffff;
       max-width: 900px;
-      margin: 0 auto;
+      margin: 30px auto;
       padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
     }
 
     .book {
       width: 250px;
-      margin: 15px;
+      text-align: center;
       padding: 15px;
-      background-color: #fafafa;
       border: 1px solid #ddd;
       border-radius: 8px;
-      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+      margin: 10px;
+      background-color: #fafafa;
     }
 
     .book img {
@@ -44,25 +41,24 @@
 
     .book h3 {
       margin: 10px 0 5px;
-    }
-
-    .book p {
-      margin: 5px 0;
+      font-size: 18px;
     }
 
     .author {
       color: #777777;
       font-size: 14px;
+      margin: 4px 0;
     }
 
     .price {
       color: #2ecc71;
       font-weight: bold;
+      margin-top: 5px;
     }
   </style>
 </head>
 <body>
-  <h1>📚 Book Library</h1>
+  <h1 style="text-align:center;">📚 Book Library</h1>
 
   <div class="book-library">
     <div class="book">
@@ -88,4 +84,3 @@
   </div>
 </body>
 </html>
-
